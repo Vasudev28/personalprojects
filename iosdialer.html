@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width:280px;
+            height:500px;
+            border:2px solid black;
+            border-radius: 40px;
+            position: relative;
+            left:600px;
+            top:120px;
+        }
+        #screen{
+            width:276px;
+            height:496px;
+            background:linear-gradient(270deg,black,grey);
+            border-radius: 40px;
+            border:4px solid black;
+            position: absolute;
+          
+        }
+        #time{
+            position: absolute;
+            left:25px;
+            top:12px;
+        }
+        #pill{
+            width:70px;
+            height:22px;
+            background-color: black;
+            position: absolute;
+            left:102px;
+            top:10px;
+            border-radius: 20px;
+        }
+        #img1{
+            margin-left:70%;
+            margin-top: 4%;
+            border-radius: 30px;
+        }
+        #icon{
+            height:14px;
+            width:14px;
+            border:2px solid grey;
+            border-radius: 50%;
+            position: absolute;
+            left: 200px;
+            top:42px;
+            left: 240px;
+        }
+        span{
+            position: absolute;
+            color:grey;
+            left:6px;
+            font-size: 12px;
+        }
+        #caller{
+            position: relative;
+        }
+        #num{
+            position: relative;
+            left:120px;
+            top:52px;
+        }
+        #name{
+            position: relative;
+            left:59px;
+            top:85px;
+        }
+       #buttonsec{
+        position: absolute;
+        top:295px;
+       }
+       #dialer{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border: none;
+       }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="screen">
+            <span id="time" style="font-size: 14px;font-family:Arial, Helvetica, sans-serif;color: whitesmoke;">9:42</span>
+            <div id="pill"></div>
+            <img src="./iphone.jpg" alt="" width="60px" height="11px" id="img1">
+            <div id="icon"><span>i</span></div>
+            <div id="caller">
+                <span id="num" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:whitesmoke;font-size: 15px;">00:09</span>
+                <span id="name" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: whitesmoke;font-size: 25px;">Eedithh</span>
+            </div>
+            <div id="buttonsec">
+                <img src="./iosdailer.jpg" alt="" width="276px" height="200px" id="dialer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
